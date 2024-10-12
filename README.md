@@ -136,3 +136,13 @@ src
 - **POST** `/transactions` : Create a new transaction
 - **PUT** `/transactions/{id}` : Update an existing transaction
 - **DELETE** `/transactions/{id}` : Delete an existing transaction
+
+## API Documentation
+This project uses Swagger to provide easy access to API documentation.
+Once the application is running, you can explore and test the API endpoints directly through the Swagger UI.
+
+Swagger UI can be accessed at: 
+
+    ```
+    http://localhost:8081/swagger-ui.html
+    ````
