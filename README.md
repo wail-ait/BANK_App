@@ -110,29 +110,29 @@ src
 -API Endpoints:
 
 ### Accounts:
-  GET /accounts : Retrieve all accounts
-  GET /accounts/{id} : Retrieve an account by ID
-  POST /accounts : Create a new account
-  PUT /accounts/{id} : Update an existing account
-  DELETE /accounts/{id} : delete an existing account
+- **GET** `/accounts` : Retrieve all accounts
+- **GET** `/accounts/{id}` : Retrieve an account by ID
+- **POST** `/accounts` : Create a new account
+- **PUT** `/accounts/{id}` : Update an existing account
+- **DELETE** `/accounts/{id}` : Delete an existing account
 
-###  Users
-  GET /users : Retrieve all users
-  GET /users/{id} : Retrieve a user by ID
-  POST /users : Create a new user
-  PUT /users/{id} : Update an existing user
-  DELETE /users/{id} : Delete an existing user
+### Users:
+- **GET** `/users` : Retrieve all users
+- **GET** `/users/{id}` : Retrieve a user by ID
+- **POST** `/users` : Create a new user
+- **PUT** `/users/{id}` : Update an existing user
+- **DELETE** `/users/{id}` : Delete an existing user
 
-###  Roles
-  GET /roles : Retrieve all roles
-  GET /roles/{id} : Retrieve a role by ID
-  POST /roles : Create a new role
-  PUT /roles/{id} : Update an existing role
-  DELETE /roles/{id} : Delete an existing role
+### Roles:
+- **GET** `/roles` : Retrieve all roles
+- **GET** `/roles/{id}` : Retrieve a role by ID
+- **POST** `/roles` : Create a new role
+- **PUT** `/roles/{id}` : Update an existing role
+- **DELETE** `/roles/{id}` : Delete an existing role
 
-###  Transactions
-  GET /transactions : Retrieve all transactions
-  GET /transactions/{id} : Retrieve a transaction by ID
-  POST /transactions : Create a new transaction
-  PUT /transactions/{id} : Update an existing transaction
-  DELETE /transactions/{id} : Delete an existing transaction
+### Transactions:
+- **GET** `/transactions` : Retrieve all transactions
+- **GET** `/transactions/{id}` : Retrieve a transaction by ID
+- **POST** `/transactions` : Create a new transaction
+- **PUT** `/transactions/{id}` : Update an existing transaction
+- **DELETE** `/transactions/{id}` : Delete an existing transaction
