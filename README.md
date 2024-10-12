@@ -101,6 +101,30 @@ src
     mvn spring-boot:run
     ```
 
+## Database Setup
+
+To set up the MySQL database for this application, follow these steps:
+
+1. **Create the Database**:
+   - Open your MySQL command line or a database management tool (like MySQL Workbench).
+   - Run the following command to create the database:
+     ```sql
+     CREATE DATABASE BANK_DB;
+     ```
+
+2. **Database Connection Settings**:
+   - In the `src/main/resources/application.properties` file, ensure the following properties are set:
+     ```properties
+     # MySQL Database connection settings
+     spring.datasource.url=jdbc:mysql://localhost:3306/BANK_DB?useSSL=false&serverTimezone=UTC
+     spring.datasource.username=root
+     spring.datasource.password=wail123
+     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+     ```
+
+3. **Adjust the Username and Password**:
+   - Modify the `spring.datasource.username` and `spring.datasource.password` values in `application.properties` to match your MySQL setup.
+
 ## Access the API
 
 -The application runs on:
