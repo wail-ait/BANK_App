@@ -15,8 +15,8 @@ such as data transfer objects (DTOs), entities, repositories, mappers, and servi
 
 ## Technologies Used
 
-- **Java**: Version 11 or higher
-- **Spring Boot**: Version 2.x
+- **Java**: Version 17
+- **Spring Boot**: Version 3.3.4
 - **Spring Data JPA**: For database interactions
 - **Hibernate**: ORM framework for database management
 - **Maven**: Build tool
